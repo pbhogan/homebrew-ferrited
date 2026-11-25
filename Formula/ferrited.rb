@@ -5,23 +5,23 @@ class Ferrited < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/pbhogan/ferrited/releases/download/v1.0.0/ferrited-1.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "eaeed614d4b3f1ede2f4df8bb838ffbd43f36944ae1c1da282fccf25e2744ade"
+      url "https://github.com/pbhogan/ferrited/releases/download/v1.0.1/ferrited-1.0.1-aarch64-apple-darwin.tar.gz"
+      sha256 "03e07089321ef2a9a810054803d3d097e51f78482414d2af4924b47f3aa97793"
     end
     on_intel do
-      url "https://github.com/pbhogan/ferrited/releases/download/v1.0.0/ferrited-1.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5ce82a413715f47fa630587095ccf4c25aacd0cb3e780a96eec9ce42d4f664c6"
+      url "https://github.com/pbhogan/ferrited/releases/download/v1.0.1/ferrited-1.0.1-x86_64-apple-darwin.tar.gz"
+      sha256 "0eaa3b8aa2010ace717cfdcdde3b58b4106a899b03b0c178bc864e4d6bc149f6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pbhogan/ferrited/releases/download/v1.0.0/ferrited-1.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ba7cca4276139aaff1fb6a56afd5a43be563e67ef3bfe223e0a612fdd2a5ffd7"
+      url "https://github.com/pbhogan/ferrited/releases/download/v1.0.1/ferrited-1.0.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6f5e92734c1c6c832f29b51b4e45bfba4942923adc0a235bc99cd7038611841e"
     end
     on_intel do
-      url "https://github.com/pbhogan/ferrited/releases/download/v1.0.0/ferrited-1.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5450849ba243630aaf64f6311379bd513b857d6b5821ac718161dca3fec086dd"
+      url "https://github.com/pbhogan/ferrited/releases/download/v1.0.1/ferrited-1.0.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d528fd891840c240ac0f094a6b8ae68e316a9bbde3bc2f9f02f24a5c670a12ea"
     end
   end
 
